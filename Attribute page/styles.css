@@ -1,0 +1,29 @@
+body{
+}
+.container{
+  background-color: #eee;
+  border-radius: 5px;
+}
+h1 {font-family: 'Tajawal', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border-top: 20px;
+  border-bottom: 20px;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+  background-image: url("ayman.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50% 50%;
+  position: relative;
+  left: 50% ;
+  transform: translateX(-50%)
+}
+.caption{
+  background-color: #ddd;
+  text-align: center;
+  font-size: 16px;
+  margin:10px 20% 20px 20%;
+}

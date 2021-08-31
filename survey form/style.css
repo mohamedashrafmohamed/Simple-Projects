@@ -1,0 +1,89 @@
+body {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 1.2em;
+}
+#araby {
+  font-family: 'Amiri', serif;
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.arabya {
+  font-family: 'Amiri', serif;
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#outside {
+  background-color: lightgoldenrodyellow ;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#fheader {
+  text-align: center;
+  text-transform: capitalize;
+}
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: white;
+}
+fieldset {
+  border: 1px solid lightgray;
+  margin: 10px;
+}
+legend {
+  font-weight: 600;
+}
+div + div {
+  margin-top: 1em;
+}
+/* label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+} */
+textarea {
+  border: 1px solid #999;
+  vertical-align: top;
+  resize: vertical;
+  width: 80%;
+}
+input:focus, textarea:focus {
+  border-color: OrangeRed;
+}
+button {
+  margin: .5em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+#supmission {
+  display: flex;
+  justify-content:center;
+}
+#fgender {
+  margin-left: 50px;
+}
+#descripton {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+}

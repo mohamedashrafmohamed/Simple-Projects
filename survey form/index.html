@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&display=swap" rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Kaisei+Tokumin:wght@700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>survey for Ayman</title>
+  </head>
+  <body>
+    <div id="outside">
+      <form class="allForm" action="index.html" method="post">
+        <h1 id="fheader"> Form about Ayman Abdel-Rehim </h1>
+        <p id="descripton">tell us what you knew about him</p>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div>
+            <label id="name-label" for="name">Name: </label>
+            <input type="text" required id="name" name="user-name" placeholder="enter your name">
+          </div>
+          <div>
+            <label id="email-label" for="email">E-mail: </label>
+            <input type="text" id="email" name="user-email" placeholder="enter your email">
+          </div>
+          <div>
+            <label id="Phone-label" for="Phone">Phone Number: </label>
+            <input type="number" id="Phone" name="user-Phone" placeholder="enter your 11 digit Phone number">
+          </div>
+          <div>
+            <label for="Gender">Gender: </label>
+            <p id="fgender">
+              <input type="radio" name="gender" value="male" checked>Male <br>
+              <input type="radio" name="gender" value="female" checked>Female <br>
+            </p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Courses Section</legend>
+          <div>
+          <label for="date-label" id="araby">بداية سماعك للمحاضرات</label>
+          <input type="date" name="bdate">
+          </div>
+          <div>
+          <label for="gender" id="araby">إختر الدورات التى قمت بسماعها</label>
+          <p id="araby">
+            <input type="checkbox" name="waeaa" value="waeaa"> <br>
+            <input type="checkbox" name="secondWaeaa" value="secondWaeaa"> <br>
+            <input type="checkbox" name="waeaaLang" value="waeaaLang"> <br>
+            <input type="checkbox" name="history" value="history"> <br>
+            <input type="checkbox" name="secondHistory" value="secondHistory"> <br>
+            <input type="checkbox" name="hwolearn" value="hwolearn"> <br>
+            <input type="checkbox" name="baytMoslem" value="baytMoslem"> <br>
+            <input type="checkbox" name="seraa" value="seraa"> <br>
+            <input type="checkbox" name="rashidenHist" value="rashidenHist"> <br>
+            <input type="checkbox" name="psycology" value="psycology"> <br>
+            <input type="checkbox" name="madghlHist" value="madghlHist"> <br>
+            <input type="checkbox" name="madghlAloom" value="madghlAloom"> <br>
+          </p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="mostLoved" id="araby"> أكثر دورة أثرت فيك: </label>
+          <select id="dropdown" class="arabya">
+            <option value="waeaa"> </option>
+            <option value="waeaaLang"> </option>
+            <option value="history"> </option>
+            <option value="baytMoslem"> </option>
+            <option value="psycology"> </option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Essay Section</legend>
+          <div>
+            <label for="msg"></label>
+            <p> </p>
+            <textarea id="msg" name="user-msg" rows="5" cols="80" placeholder="ضع إجابتك هنا"></textarea>
+          </div>
+        </fieldset>
+        <div id="supmission">
+          <button type="submit" id="submit">Send Your Answer</button>
+        </div>
+      </form>
+
+    </div>
+
+
+  </body>
+</html>
